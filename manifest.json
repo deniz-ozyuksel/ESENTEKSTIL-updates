@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.0",
+  "releaseDate": "2026-04-19",
+  "modules": [
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "version": "1.0.0",
+      "description": "Ana üretim paneli",
+      "files": ["ui/src/pages/Dashboard.jsx"]
+    },
+    {
+      "id": "orders",
+      "name": "Siparişler",
+      "version": "1.0.0",
+      "description": "Sipariş yönetimi",
+      "files": ["ui/src/pages/Orders.jsx"]
+    },
+    {
+      "id": "workorders",
+      "name": "İş Emirleri",
+      "version": "1.0.0",
+      "description": "İş emri yönetimi",
+      "files": [
+        "ui/src/pages/WorkOrders.jsx",
+        "ui/src/pages/WorkOrderBarcodes.jsx",
+        "ui/src/pages/WorkOrderPrintBarcodes.jsx"
+      ]
+    },
+    {
+      "id": "barcode",
+      "name": "Barkod Tarama",
+      "version": "1.0.0",
+      "description": "Barkod tarama ekranları",
+      "files": [
+        "ui/src/pages/BarcodeScanDesktop.jsx",
+        "ui/src/pages/BarcodeScanMobile.jsx",
+        "ui/src/pages/BarcodeTemplateDesigner.jsx"
+      ]
+    },
+    {
+      "id": "reports",
+      "name": "Raporlar",
+      "version": "1.0.0",
+      "description": "Üretim raporları",
+      "files": [
+        "ui/src/pages/MonthlyProductionReportPage.jsx",
+        "ui/src/pages/LineEfficiency.jsx",
+        "ui/src/pages/OperatorPerformance.jsx"
+      ]
+    },
+    {
+      "id": "maintenance",
+      "name": "Bakım",
+      "version": "1.0.0",
+      "description": "Bakım ve arıza yönetimi",
+      "files": [
+        "ui/src/pages/MaintenancePage.jsx",
+        "ui/src/pages/MaintenanceDashboardPage.jsx",
+        "ui/src/pages/MaintenanceDefinitionsPage.jsx"
+      ]
+    },
+    {
+      "id": "admin",
+      "name": "Yönetim Paneli",
+      "version": "1.0.0",
+      "description": "Kullanıcı ve sistem yönetimi",
+      "files": ["ui/src/pages/AdminPanel.jsx"]
+    },
+    {
+      "id": "api_core",
+      "name": "API Core",
+      "version": "1.0.0",
+      "description": "Backend API servisleri",
+      "files": [
+        "api_dotnet/EsenTekstil.Api/Controllers/",
+        "api_dotnet/EsenTekstil.Api/Services/",
+        "api_dotnet/EsenTekstil.Api/Models/"
+      ]
+    }
+  ]
+}
